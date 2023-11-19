@@ -1,145 +1,99 @@
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    color: #333;
-  }
-  
-  .navbar {
-    background-color: rgba(255, 255, 255, 0.7);
-    color: #333;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .logo {
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .navbar li {
-    margin: 0 15px;
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.3s ease, box-shadow 0.3s ease;
-    position: relative; /* Added relative positioning for the glow effect */
-  }
-  
-  .navbar a:hover {
-    color: #4285f4;
-    box-shadow: 0 0 10px rgba(66, 133, 244, 0.5); /* Adjusted glow effect on hover */
-  }
-  
-  .hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 100vh;
-    color: white;
-    text-align: center;
-    overflow: hidden;
-  }
-  
-  .hero:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('https://r4.wallpaperflare.com/wallpaper/736/182/450/elephant-wildlife-wallpaper-d3d947118ef36c03e4fc0157ee8b0326.jpg') center/cover no-repeat;
-    filter: blur(5px);
-    height: 100%; /* Expand to the bottom of the page */
-  }
-  
-  .hero-title {
-    font-size: 48px;
-    font-family: 'Permanent Marker', cursive;
-    position: relative;
-    z-index: 2;
-    margin-bottom: 10px;
-  }
-  
-  .quote {
-    font-style: italic;
-    margin-top: 10px;
-    font-size: 18px;
-    position: relative;
-    z-index: 2;
-  }
-  
-  .explore-btn {
-    position: relative;
-    z-index: 2;
-    display: inline-block;
-    padding: 12px 24px;
-    margin-top: 20px;
-    background-color: #4285f4;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .explore-btn:hover {
-    background-color: #3c79d0;
-  }
-  
-  .contact-form {
-    background-color: rgba(255, 255, 255, 0.9); /* White faded transparent background */
-    padding: 20px;
-    box-sizing: border-box;
-    position: relative;
-    z-index: 3; /* Ensure form is above the blurred background */
-  }
-  
-  .contact-form h2 {
-    color: #333;
-  }
-  
-  .contact-form form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact-form label {
-    margin-bottom: 5px;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .contact-form button {
-    padding: 10px;
-    background-color: #4285f4;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contact-form button:hover {
-    background-color: #3c79d0;
-  }
-  
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.324);
+  color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+  position: relative; /* Added relative positioning for the glow effect */
+}
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://r4.wallpaperflare.com/wallpaper/736/182/450/elephant-wildlife-wallpaper-d3d947118ef36c03e4fc0157ee8b0326.jpg') center/cover no-repeat;
+  filter: blur(5px);
+  height: 100%; /* Expand to the bottom of the page */
+}
+
+.hero-title {
+  font-size: 48px;
+  font-family: 'Permanent Marker', cursive;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added shadow effect */
+}
+
+.quote {
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.816);
+}
+
+.explore-btn {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 20px;
+  background-color: #4285f4;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #3c79d0;
+}
