@@ -6,7 +6,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>National Parks in India</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://r4.wallpaperflare.com/wallpaper/361/37/200/zebras-in-amboseli-national-park-mount-kilimanjaro-in-southern-kenya-4k-ultra-hd-desktop-wallpapers-for-computers-laptop-tablet-and-mobile-phones-3840%C3%972160-wallpaper-08f6fdd890803c28e0ec71aed8b2845a.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+        
+        body::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 100, 0.5); /* Adjust the color and opacity as needed */
+            z-index: -1;
+        }
+        nav {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            transform: rotate(180deg);
+            transform-origin: center;
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: white (255, 255, 255, 0.9);
+            text-shadow: #333;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.1) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.1) 75%, transparent 75%, transparent);
+        }
+
+        .post {
+            position: relative;
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            overflow: hidden;
+        }
+
+        .post::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('https://r4.wallpaperflare.com/wallpaper/361/37/200/zebras-in-amboseli-national-park-mount-kilimanjaro-in-southern-kenya-4k-ultra-hd-desktop-wallpapers-for-computers-laptop-tablet-and-mobile-phones-3840%C3%972160-wallpaper-08f6fdd890803c28e0ec71aed8b2845a.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            border-radius: 8px;
+            filter: blur(0.3s);
+            z-index: -1;
+        }
+
+        .post img {
+            max-width: 100%;
+            border-radius: 8px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .post h2 {
+            font-size: 28px;
+            color:chocolate;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .post p {
+            font-size: 16px;
+            color:whitesmoke;
+            text-shadow: #333;
+            position: relative;
+            z-index: 1;
+        }
+
+        .post ul {
+            text-align: left;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .post li {
+            margin-bottom: 5px;
+        }
+
+        ol {
+            list-style: none;
+            padding: 0;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #2077b5;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
@@ -86,24 +217,114 @@
             <!-- New Post: National Parks in India -->
             <div class="post">
               <h2>National Parks in India</h2>
-              <ul>
-                  <li><a href="#link-to-national-park-1">National Park 1</a></li>
-                  <li><a href="#link-to-national-park-2">National Park 2</a></li>
+              <ol>
+                  <li>Corbett National Park</li>
+                  <li>Kanha National Park</li>
+                  <li>Tadoba National Park</li>
+                  <li>Madhav National Park</li>
+                  <li>Bandhavgarh National Park</li>
+                  <li>Kaziranga National Park</li>
+                  <li>andipur National Park</li>
+                  <li>Bannerghatta National Park</li>
+                  <li>Gir National Park</li>
+                  <li>Gugamal National Park</li>
+                  <li>Navegaon National Park</li>
+                  <li>Pench National Park</li>
+                  <li>Blackbuck National Park</li>
+                  <li>Guindy National Park</li>
+                  <li>Keibul-Lamjao National Park</li>
+                  <li>Khangchendzonga National Park</li>
+                  <li>Dudhwa National Park</li>
+                  <li>Eravikulam National Park</li>
+                  <li>Vansda National Park</li>
+                  <li>Van Vihar National Park</li>
+                  <li>Simlipal National Park</li>
+                  <li>Ranthambore National Park</li>
+                  <li>Gulf of Mannar Marine National Park</li>
+                  <li>Guru Ghasidas (Sanjay) National Park</li>
+                  <li>Dachigam National Park</li>
+                  <li>Hemis National Park</li>
+                  <li>Kishtwar National Park</li>
+                  <li>Panna National Park</li>
+                  <li>Sanjay National Park</li>
+                  <li>Satpura National Park</li>
+                  <li>Keoladeo Ghana National Park</li>
+                  <li>Indravati National Park</li>
+                  <li>Kanger Valley National Park</li>
+                  <li>Marine National Park</li>
+                  <li>Periyar National Park</li>
+                  <li>Nanda Devi National Park</li>
+                  <li>Valley of Flowers National Park</li>
+                  <li>Mahatma Gandhi Marine National Park</li>
+                  <li>Mahatma Gandhi Marine National Park</li>
+                  <li>Fossil National Park</li>
+                  <li>Sanjay Gandhi National Park</li>
+                  <li>Rajaji National Park</li>
+                  <li>Great Himalayan National Park</li>
+                  <li>Silent Valley National Park</li>
+                  <li>Sunderban National Park</li>
+                  <li>Balpakram National Park</li>
+                  <li>Mouling National Park</li>
+                  <li>Betla National Park</li>
+                  <li>Nokrek Ridge National Park</li>
+                  <li>Neora Valley National Park</li>
+                  <li>Singalila National Park</li>
+                  <li>Middle Button Island National Park</li>
+                  <li>Mount Harriet National Park</li>
+                  <li>North Button Island National Park</li>
+                  <li>Saddle Peak National Park</li>
+                  <li>South Button Island National Park</li>
+                  <li>Pin Valley National Park</li>
+                  <li>Anshi National Park</li>
+                  <li>Kudremukh National Park</li>
+                  <li>Nagarahole (Rajiv Gandhi) National Park</li>
+                  <li>Bhitarkanika National Park</li>
+                  <li>Sri Venkateswara National Park</li>
+                  <li>Valmiki National Park</li>
+                  <li>Sultan National Park</li>
+                  <li>Indira Gandhi (Annamalai) National Park</li>
+                  <li>Gangotri National Park</li>
+                  <li>Manas National Park</li>
+                  <li>Mudumalai National Park</li>
+                  <li>Mukurthi National Park</li>
+                  <li>Govind National Park</li>
+                  <li>Murlen National Park</li>
+                  <li>Campbell Bay National Park</li>
+                  <li>Galathea Bay National Park</li>
+                  <li>Mollem National Park</li>
+                  <li>City Forest (Salim Ali) National Park</li>
+                  <li>Phawngpui Blue Mountain National Park</li>
+                  <li>Desert National Park</li>
+                  <li>Sariska National Park</li>
+                  <li>Buxa National Park</li>
+                  <li>Gorumara National Park</li>
+                  <li>Intanki National Park</li>
+                  <li>Kasu Brahmananda Reddy National Park</li>
+                  <li>Mahaveer Harina Vanasthali National Park</li>
+                  <li>Mrugavani National Park</li>
+                  <li>Rani Jhansi Marine National Park</li>
+                  <li>Nameri National Park</li>
+                  <li>Dibru-Saikhowa National Park</li>
+                  <li>Rajiv Gandhi Orang National Park</li>
+                  <li>Kalesar National Park</li>
+                  <li>Anamudi Shola National Park</li>
+                  <li>Mathikettan Shola National Park</li>
+                  <li>Pampadum Shola National Park</li>
+                  <li>Chandoli National Park</li>
+                  <li>Rajiv Gandhi (Rameswaram) National Park</li>
+                  <li>Mukundra Hills National Park</li>
+                  <li>Clouded Leopard National Park</li>
+                  <li>Bison National Park</li>
+                  <li>Papikonda National Park</li>
+                  <li>Inderkilla National Park</li>
+                  <li>Khirganga National Park</li>
+                  <li>Simbalbara National Park</li>
+                  <li>Jaldapara National Park</li>
+                  
                   <!-- Add more national parks with their respective links -->
-              </ul>
+              </ol>
           </div>
-
-          <!-- New Post: Additional Content for Scrolling -->
-          <div class="post">
-              <img src="https://example.com/image.jpg" alt="Image">
-              <h2>New Post Title</h2>
-              <p>
-                  This is additional content that comes after the National Parks in India post. You can add more
-                  content, images, and details as needed.
-              </p>
           </div>
       </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="script.js"></script>
 </body>
