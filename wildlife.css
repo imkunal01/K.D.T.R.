@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://r4.wallpaperflare.com/wallpaper/133/880/850/stag-wildlife-deer-wild-animal-wallpaper-1900084da1da5d9b36b7b8ff8051766d.jpg') center/cover no-repeat fixed;
+  filter: blur(3px); /* Adjust the blur strength as needed */
+  z-index: -1;
+}
+
+.header {
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 48px;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: #000000;
+  color: #000000;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.info-box {
+  width: 300px;
+  background-color: #ffffff68;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.837);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.info-box img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.info-box:hover {
+  transform: scale(1.5);
+}
+
+h2, p {
+  color: black;
+  text-shadow: #000000;
+  font-size: larger;
+}
+
+h2 {
+  font-size: 24px;
+  color: #4CAF50;
+}
