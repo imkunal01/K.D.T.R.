@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  color: #fff;
+  color: #000000;
   position: relative;
 }
 
@@ -29,7 +29,7 @@ h1 {
   font-family: 'Permanent Marker', cursive;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-shadow: #000000;
-  color: #000000;
+  color:rgb(102, 237, 100);
 }
 
 .content {
@@ -41,13 +41,13 @@ h1 {
 
 .info-box {
   width: 300px;
-  background-color: #ffffff68;
+  background-color: #ffffffc0;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.837);
   text-align: center;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .info-box img {
@@ -60,13 +60,30 @@ h1 {
   transform: scale(1.5);
 }
 
-h2, p {
-  color: black;
-  text-shadow: #000000;
-  font-size: larger;
+
+.text-container {
+  width: 80%;
+  margin: 20px auto; /* Add some margin to separate the containers */
 }
+
+.text-box {
+  background-color: #ffffffba;
+  padding: 20px;
+  margin: -20px ;
+  border-radius: 90px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.837);
+  text-align: center;
+  margin-bottom: 10px; /* Add margin to the bottom of each box */
+}
+
+.text h2 {
+  font-size: 24px;
+  color: #4CAF50;
+}
+
 
 h2 {
   font-size: 24px;
   color: #4CAF50;
 }
+
