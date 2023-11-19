@@ -1,0 +1,240 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://r4.wallpaperflare.com/wallpaper/361/37/200/zebras-in-amboseli-national-park-mount-kilimanjaro-in-southern-kenya-4k-ultra-hd-desktop-wallpapers-for-computers-laptop-tablet-and-mobile-phones-3840%C3%972160-wallpaper-08f6fdd890803c28e0ec71aed8b2845a.jpg'); /* Replace 'your-background-image.jpg' with the actual path to your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color:cornflowerblue;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  display: block;
+}
+a:hover {
+  text-decoration: underline;
+  color: grey;
+  padding: 10px;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:green;
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+/* Show dropdown menu on hover */
+li.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ... (existing styles) ... */
+
+.content {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly increase the alpha value for a less transparent background */
+  padding: 30px; /* Increase padding for better spacing */
+  margin: 20px 0;
+  border-radius: 15px; /* Increase border radius for a softer look */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Enhance box shadow for a lifted effect */
+
+  /* Add a subtle background pattern or texture for visual interest */
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.1) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.1) 75%, transparent 75%, transparent);
+}
+
+h2 {
+  font-size: 28px; /* Increase font size for headings */
+  margin-bottom: 20px;
+  color: #333; /* Use a darker color for headings */
+}
+
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Style form inputs on focus */
+input:focus,
+textarea:focus {
+  border: 1px solid #555;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+/* ... (existing styles) ... */
+
+.content {
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+/* styles.css */
+
+body {
+  display: flex;
+  min-height: 100vh;
+}
+
+nav {
+  /* Add styling for the vertical heading */
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  transform-origin: center;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  padding: 20px;
+}
+
+.post {
+  position: relative;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+}
+
+.post::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://r4.wallpaperflare.com/wallpaper/361/37/200/zebras-in-amboseli-national-park-mount-kilimanjaro-in-southern-kenya-4k-ultra-hd-desktop-wallpapers-for-computers-laptop-tablet-and-mobile-phones-3840%C3%972160-wallpaper-08f6fdd890803c28e0ec71aed8b2845a.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 8px; /* Adjust border radius as needed */
+  filter: blur(0.3s); /* Add blur effect to the background */
+  z-index: -1;
+}
+
+.post img {
+  max-width: 100%;
+  border-radius: 8px;
+  position: relative; /* Ensure the image stays above the blurred background */
+  z-index: 1;
+}
+
+.post h2 {
+  font-size: 24px;
+  color: #3498db;
+  margin-bottom: 10px;
+  position: relative; /* Ensure the text stays above the blurred background */
+  z-index: 1;
+}
+
+.post p {
+  font-size: 16px;
+  color: #333;
+  position: relative; /* Ensure the text stays above the blurred background */
+  z-index: 1;
+}
+
+.post ul {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+}
+
+.post li {
+  margin-bottom: 5px;
+}
